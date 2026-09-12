@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24527A" />
+      <stop offset="100%" stop-color="#183650" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5DACBD" />
+      <stop offset="100%" stop-color="#3D8898" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Circle Frame Background -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" stroke="#5DACBD" stroke-width="6" />
+
+  <!-- Inner Subtle Grid & Rings -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2" stroke-dasharray="8 8" />
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#5DACBD" stroke-opacity="0.2" stroke-width="2" />
+
+  <!-- Avatar Silhouette / Stylized Tech Icon -->
+  <g transform="translate(0, 10)">
+    <!-- Head -->
+    <circle cx="200" cy="140" r="55" fill="url(#accentGrad)" filter="url(#shadow)" />
+    
+    <!-- Body / Shoulders -->
+    <path d="M 100 290 C 100 215, 140 200, 200 200 C 260 200, 300 215, 300 290 Z" fill="url(#accentGrad)" filter="url(#shadow)" />
+    
+    <!-- Code Accent Brackets -->
+    <path d="M 120 130 L 100 150 L 120 170" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 280 130 L 300 150 L 280 170" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom Badge Initials -->
+  <rect x="130" y="325" width="140" height="36" rx="18" fill="#FFFFFF" />
+  <text x="200" y="349" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#24527A" text-anchor="middle" letter-spacing="1">D. J. SWAROOP</text>
+</svg>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function LinkedinIcon({ size = 22, src = "/assets/icons/linkedin.svg" }) {
+export function LinkedinIcon({ size = 22, src = "/Portfolio/assets/icons/linkedin.svg" }) {
   return (
     <img
       src={src}
@@ -12,7 +12,7 @@ export function LinkedinIcon({ size = 22, src = "/assets/icons/linkedin.svg" }) 
   );
 }
 
-export function GithubIcon({ size = 22, src = "/assets/icons/github.svg" }) {
+export function GithubIcon({ size = 22, src = "/Portfolio/assets/icons/github.svg" }) {
   return (
     <img
       src={src}
@@ -24,7 +24,7 @@ export function GithubIcon({ size = 22, src = "/assets/icons/github.svg" }) {
   );
 }
 
-export function LeetCodeIcon({ size = 22, src = "/assets/icons/leetcode.svg" }) {
+export function LeetCodeIcon({ size = 22, src = "/Portfolio/assets/icons/leetcode.svg" }) {
   return (
     <img
       src={src}
@@ -36,7 +36,7 @@ export function LeetCodeIcon({ size = 22, src = "/assets/icons/leetcode.svg" }) 
   );
 }
 
-export function GfgIcon({ size = 22, src = "/assets/icons/gfg.svg" }) {
+export function GfgIcon({ size = 22, src = "/Portfolio/assets/icons/gfg.svg" }) {
   return (
     <img
       src={src}

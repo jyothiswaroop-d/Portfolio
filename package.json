@@ -5,10 +5,12 @@
   "type": "module",
   "homepage": "https://jyothiswaroop-d.github.io/Portfolio",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "oxlint",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^1.41.0",

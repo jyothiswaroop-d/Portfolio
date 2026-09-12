@@ -11,8 +11,8 @@ export const profileData = {
     "React",
     "Node.js"
   ],
-  profileImage: "/assets/profile/profile.png",
-  resumePath: "/assets/resume.pdf",
+  profileImage: "/Portfolio/assets/profile/profile.png",
+  resumePath: "/Portfolio/assets/resume.pdf",
   email: "swaroopdamarla2006@gmail.com",
   // web3formsAccessKey: "a382507a-0023-41f2-b1f1-c91a5100e057", // Free key from https://web3forms.com
   web3formsAccessKey: "e3d7e322-4619-4f77-a17a-2b854b002395",

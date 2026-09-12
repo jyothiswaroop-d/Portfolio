@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Student Monitoring & Attendance Management System",
     category: "fullstack",
     categoryName: "Full Stack Development / Web",
-    image: "/assets/projects/proj_1-1.png",
+    image: "/Portfolio/assets/projects/proj_1-1.png",
     date: "Jan 2026",
     shortDescription: "Developed a web-based student transportation management platform with real-time bus tracking, automated attendance, and route visualization dashboards.",
 
@@ -39,7 +39,7 @@ export const projectsData = [
     title: "GeoVision AI",
     category: "aiml",
     categoryName: "AI / Machine Learning",
-    image: "/assets/projects/proj_2-1.png",
+    image: "/Portfolio/assets/projects/proj_2-1.png",
     date: "January 2025",
     shortDescription: "Developed an end-to-end AI pipeline for automated extraction and mapping of rural infrastructure from high-resolution drone orthophotos using deep learning and geospatial processing.",
 
@@ -78,7 +78,7 @@ export const projectsData = [
     title: "GrocBankX",
     category: "aiml",
     categoryName: "AI / Machine Learning",
-    image: "/assets/projects/proj_2-2.png",
+    image: "/Portfolio/assets/projects/proj_2-2.png",
     date: "April 2026",
 
     shortDescription: "Developed a secure grocery payment system integrating machine learning-based fraud detection with real-time face verification to reduce false transaction blocking.",
@@ -121,7 +121,7 @@ export const projectsData = [
     company: "SmartBridge Educational Services Pvt. Ltd.",
     startDate: "May 2026",
     endDate: "July 2026",
-    image: "/assets/projects/proj_3-1.png",
+    image: "/Portfolio/assets/projects/proj_3-1.png",
     shortDescription: "Developed a machine learning web application to predict the Human Development Index (HDI) of countries using socio-economic indicators with high accuracy.",
     problem: "Analyzing and estimating a country's development level requires interpreting multiple socio-economic indicators, which can be complex and time-consuming without a predictive system.",
 
